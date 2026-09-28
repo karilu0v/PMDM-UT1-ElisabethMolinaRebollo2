@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">PMDM UT1</string>
-    <string name="titulo">Aplicación de Ejemplo</string>
-    <string name="subtitulo">Programación Multimedia y Dispositivos Móviles</string>
-    <string name="descripcion">Proyecto base para analizar la estructura de una aplicación Android.</string>
+    <string name="app_name">UT1 - Elisabeth Molina</string>
+    <string name="titulo">Primera Aplicación</string>
+    <string name="subtitulo">En Android Studio</string>
+    <string name="nombre">Elisabeth Molina Rebollo</string>
+    <string name="descripcion">En strings.xml se guardan las cadenas de caracteres</string>
 </resources>

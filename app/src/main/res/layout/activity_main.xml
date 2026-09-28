@@ -14,7 +14,7 @@
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_smartphone"
+        android:src="@drawable/ic_logo_luna"
         app:layout_constraintBottom_toTopOf="@id/textTitulo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/titulo"
-        android:textSize="24sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,10 +39,22 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="@string/subtitulo"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textTitulo" />
+
+    <TextView
+        android:id="@+id/textNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/nombre"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textSubtitulo" />
 
     <TextView
         android:id="@+id/textDescripcion"
@@ -53,6 +65,6 @@
         android:text="@string/descripcion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textSubtitulo" />
+        app:layout_constraintTop_toBottomOf="@id/textNombre" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
